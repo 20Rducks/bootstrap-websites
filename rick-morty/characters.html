@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+ <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+<!-- external sheet-->
+<link rel="stylesheet" type="text/css" href="home-style-character.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md justify-content-between fixed-top">
+    <a class="navbar-brand" type="button" href="https://www.imdb.com/title/tt2861424/"></a>
+    <img src="logo.png" alt="logo" style="width:40px;height:40px">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navBar"><span class="navbar-toggler-icon"></span></button>
+
+    <div class="navbar-collapse" id="navBar"></div>
+    <ol class="nav navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" data-value="about" href="home2.html" >Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-value="character" href="characters.html">Characters</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-value="episodes" href="episodes.html">Episodes</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-value="seasons" href="seasons.html">Seasons</a>
+      </li>
+    </ol>
+  </nav>
+      
+<header class="page-header header container-fluid">
+  <div class="row pt-5">
+    <div class="col">
+
+      <div class="jumbotron mx-auto">
+        <h2>Characters of Rick & Morty</h2><br>
+        <p class="lead">So Many wonderful characters,  suspendisse consectetur mi id libero fringilante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis. Suspendisse consectetur mi id libero fringi </p><br>
+
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#charmodal">Squanch!</button>
+
+
+        <div id="charmodal" class="modal fade">
+          <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+
+
+              <div class="modal-header d-block mx-auto">
+                <h4 class="modal-title">There are thousands of wacky character to check out!</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+
+
+              <div class="modal-body text-center">
+                <img class="pb-4" src="trippy.jpeg" alt="trippy"></img>
+                <h2>Why not find out more and visit a some other website.</h2>
+                <p>So many new characters every week! suspendisse consectetur mi id libero fringilante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis. Suspendisse consectetur mi id libero fringi</p>
+                <a type="button" class="btn btn-primary-sm" href="characters.html">Squanch!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="background">
+  <div class="container team">
+    <div class="row">
+
+      <div class="card col-lg-3 col-md-6 col-sm-12 text-center">
+        <img class="card-img-top rounded-circle" src="rick.jfif" alt="jerry">
+        <div class="card-body">
+          <h4 class="card-title">Rick Sanchez</h4>
+          <p class="card-text">Beths Dad</p>
+          <a class="card-link" href="https://en.wikipedia.org/wiki/Rick_Sanchez">Learn More</a>
+          <a class="btn btn-primary" href="https://www.youtube.com/watch?v=IDcQ8_sudx4">Watch</a>
+        </div>
+      </div>
+
+      <div class="card col-lg-3 col-md-6 col-sm-12 text-center">
+        <img class="card-img-top rounded-circle" src="morty.jfif" alt="beth">
+        <div class="card-body">
+          <h4 class="card-title">Morty Smith</h4>
+          <p class="card-text">Ricks Grandson</p>
+          <a class="card-link" href="https://en.wikipedia.org/wiki/Morty_Smith">Learn More</a>
+          <a class="btn btn-primary" href="https://www.youtube.com/watch?v=IDcQ8_sudx4">Watch</a>
+        </div>
+      </div>
+
+      <div class="card col-lg-3 col-md-6 col-sm-12 text-center">
+        <img class="card-img-top rounded-circle" src="jerry.jfif" alt="jerry">
+        <div class="card-body">
+          <h4 class="card-title">Jerry Smith</h4>
+          <p class="card-text">Mortys Dad</p>
+          <a class="card-link" href="https://en.wikipedia.org/wiki/List_of_Rick_and_Morty_characters#Jerry_Smith">Learn More</a>
+          <a class="btn btn-primary" href="https://www.youtube.com/watch?v=IDcQ8_sudx4">Watch</a>
+        </div>
+      </div>
+
+      <div class="card col-lg-3 col-md-6 col-sm-12 text-center">
+        <img class="card-img-top rounded-circle" src="beth.jfif" alt="beth">
+        <div class="card-body">
+          <h4 class="card-title">Beth Smith</h4>
+          <p class="card-text">Ricks Daughter</p>
+          <a class="card-link" href="https://en.wikipedia.org/wiki/Beth_Smith">Learn More</a>
+          <a class="btn btn-primary" href="https://www.youtube.com/watch?v=IDcQ8_sudx4">Watch</a>
+        </div>
+      </div>
+
+      <div class="card col-lg-3 col-md-6 col-sm-12 text-center">
+        <img class="card-img-top rounded-circle" src="summer.jfif" alt="beth">
+        <div class="card-body">
+          <h4 class="card-title">Summer Smith</h4>
+          <p class="card-text">Ricks Grandaughter</p>
+          <a class="card-link" href="https://en.wikipedia.org/wiki/Summer_Smith">Learn More</a>
+          <a class="btn btn-primary" href="https://www.youtube.com/watch?v=IDcQ8_sudx4">Watch</a>
+        </div>
+      </div>
+
+      <div class="card col-lg-3 col-md-6 col-sm-12 text-center">
+        <img class="card-img-top rounded-circle" src="birdperson.jfif" alt="jerry">
+        <div class="card-body">
+          <h4 class="card-title">Bird Person</h4>
+          <p class="card-text">Ricks Friends</p>
+          <a class="card-link" href="https://rickandmorty.fandom.com/wiki/Birdperson">Learn More</a>
+          <a class="btn btn-primary" href="https://www.youtube.com/watch?v=IDcQ8_sudx4">Watch</a>
+        </div>
+      </div>
+
+      <div class="card col-lg-3 col-md-6 col-sm-12 text-center">
+        <img class="card-img-top rounded-circle" src="squancy.jfif" alt="beth">
+        <div class="card-body">
+          <h4 class="card-title">Squanchy</h4>
+          <p class="card-text">Ricks Friend</p>
+          <a class="card-link" href="https://www.google.com/search?rlz=1C1ONGR_en-GBGB1008GB1010&q=Squanchy&stick=H4sIAAAAAAAAAONgFuLSz9U3qDIrMDLJUuLVT9c3NMxIjrewsKg005LJTrbSLykDoviCovz0osRcq-SMxKLE5JLUouJFrBzBhaWJeckZlQDR7YO9RgAAAA&sa=X&ved=2ahUKEwi9z83xvuv4AhUGaMAKHfTaAkEQ9OUBegQIHhAL&biw=644&bih=658&dpr=1.35">Learn More</a>
+          <a class="btn btn-primary" href="https://www.youtube.com/watch?v=IDcQ8_sudx4">Watch</a>
+        </div>
+      </div>
+
+      <div class="card col-lg-3 col-md-6 col-sm-12 text-center">
+        <img class="card-img-top rounded-circle" src="tammy.jfif" alt="jerry">
+        <div class="card-body">
+          <h4 class="card-title">Tammy</h4>
+          <p class="card-text">Bird Persons Wife</p>
+          <a class="card-link" href="https://rickandmorty.fandom.com/wiki/Tammy_Guterman">Learn More</a>
+          <a class="btn btn-primary" href="https://www.youtube.com/watch?v=IDcQ8_sudx4">Watch</a>
+        </div>
+      </div>
+
+      <div class="card col-lg-3 col-md-6 col-sm-12 text-center">
+        <img class="card-img-top rounded-circle" src="fart.jfif" alt="beth">
+        <div class="card-body">
+          <h4 class="card-title">Fart</h4>
+          <p class="card-text">Mortys Friend</p>
+          <a class="card-link" href="https://rickandmorty.fandom.com/wiki/Fart">Learn More</a>
+          <a class="btn btn-primary" href="https://www.youtube.com/watch?v=IDcQ8_sudx4">Watch</a>
+        </div>
+      </div>
+
+      <div class="card col-lg-3 col-md-6 col-sm-12 text-center">
+        <img class="card-img-top rounded-circle" src="goldenfold.jpg" alt="beth">
+        <div class="card-body">
+          <h4 class="card-title">Mr Goldenfold</h4>
+          <p class="card-text">Mortys Teacher</p>
+          <a class="card-link" href="https://rickandmorty.fandom.com/wiki/Mr._Goldenfold">Learn More</a>
+          <a class="btn btn-primary" href="https://www.youtube.com/watch?v=IDcQ8_sudx4">Watch</a>
+        </div>
+      </div>
+
+      <div class="card col-lg-3 col-md-6 col-sm-12 text-center">
+        <img class="card-img-top rounded-circle" src="beta.jpg" alt="beth">
+        <div class="card-body">
+          <h4 class="card-title">Beta 7</h4>
+          <p class="card-text">Hive Mind</p>
+          <a class="card-link" href="https://rickandmorty.fandom.com/wiki/Beta-Seven">Learn More</a>
+          <a class="btn btn-primary" href="https://www.youtube.com/watch?v=IDcQ8_sudx4">Watch</a>
+        </div>
+      </div>
+
+      <div class="card col-lg-3 col-md-6 col-sm-12 text-center">
+        <img class="card-img-top rounded-circle" src="gary.jpg" alt="beth">
+        <div class="card-body">
+          <h4 class="card-title">Sleepy Gary</h4>
+          <p class="card-text">Jerrys Friend</p>
+          <a class="card-link" href="https://rickandmorty.fandom.com/wiki/Sleepy_Gary">Learn More</a>
+          <a class="btn btn-primary" href="https://www.youtube.com/watch?v=IDcQ8_sudx4">Watch</a>
+        </div>
+      </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+<footer class="page-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-8 col-lg-8 mx-auto">
+        <h3 class="text-uppercase font-weight-bold">Join the resistance</h3>
+        <p>We are always looking for new recruits, suspendisse consectetur mi id libero fringilante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis. Suspendisse consectetur mi id libero fringi</p>
+      </div>
+      <br>
+    <div class="col-sm-12 col-md-4 col-lg-4">
+      <h6 class="text-uppercase font-weight-bold">Contact</h6>
+      <p>Earth c-137
+      <br>America
+      <br>RickSanchez@Gmail.com
+      <br>+01 949 9494 949494</p>
+    </div>
+  <div>
+  <div class="footer-copyright text-center">© Copyright : Rick & Morty</div>
+</footer>
+
+<script type="text/javascript" href="js.js"></script>
+<!-- jQuery library -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script> 
+
+</body>
+
+</html>

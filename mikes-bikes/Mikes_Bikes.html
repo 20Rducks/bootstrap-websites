@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="Robbo" author="Robbo">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- external sheet-->
+<link rel="stylesheet" href="Mikes_Bikes.css">
+<script type="text/javascript" src="Mikes_Bikes.js"></script>
+
+ <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script> 
+
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+<script src="https://kit.fontawesome.com/637e9942cd.js" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body class="content mx-5" id="content">
+
+<nav class="navbar navbar-expand-md fixed-top" id="topnav">
+  <div class="container-fluid mx-auto">
+    <img class="img-fluid logo" src="logo.png" style="width:30px;height:30px" alt="Logo">
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navCollapse"><span class="navbar-toggler-icon pb-2"></span></button>
+
+    <div class="collapse navbar-collapse" id="navCollapse">
+      <div class="navbar-nav m-auto">
+        <a href="#row1" class="px-3 nav-item nav-link">Home</a>
+        <a href="#row2" class="px-3 nav-item nav-link">Lessons</a>
+        <a href="#row3" class="px-3 nav-item nav-link">Bikes</a>
+        <a href="#row4" class="px-3 nav-item nav-link">Pricing</a>
+        <a href="#row5" class="px-3 nav-item nav-link">Reviews</a>
+        <a href="#row6" class="px-3 nav-item nav-link">Bio</a>
+        <a type="button" data-toggle="modal" data-target="#modal1" class="nav-link nav-item pl-3">Join</a>
+
+        <div class="modal fade" id="modal1">
+        <div class="modal-dialog modal-lg modal-dialog-center">
+          <div class="modal-content">
+
+            <div>
+              <button type="button" class="close btn" data-mdb-toggle="modal" data-mdb-target="#exampleModal" data-dismiss="modal">&times;</button>
+            </div>
+
+            <div class="modal-header d-block mx-auto">             
+              <h3 class="modal-title">Welcome to MIKES BIKES</h3>
+            </div>
+
+            <div class="modal-body text-center">
+              <img src="modalbike.jpg" class="img-fluid mx-auto mb-3" alt="modalbike">
+              <h3>Join our newsletter</h3>
+              <p>Dulce decorum est Dulce decorum est Dulce decorum addEvent ListenerDulce decorum estDulce decorum estDulce decorum estDulce decorum estv</p>
+            </div>
+
+            <form action="mike.php" class="needs-validation" novalidate>
+              <div class="form-group mx-4">
+                <label class="mr-4" for="select1">Please choose one</label>
+                <select class="form-control" id="selectone" name="selectlist">
+                  <option>Bike Repair</option>
+                  <option>Fitting Parts</option>
+                  <option>Lessons</option>
+                  <option>Cleaning</option>
+                </select>
+              </div> 
+              <div class="form-group mx-4">
+                <label for="#name" class="form-label">Name</label>
+                <input type="text" class="form-control" placeholder="Jane Doe" id="name"required>
+                <div class="valid-feedback">Thank you!</div>
+                <div class="invalid-feedback">Required</div>
+              </div>
+              <div class="form-group mx-4">
+                <label for="formemail" class="form-label">Email Address</label>
+                <input type="email" class="form-control" placeholder="Email" id="email" required>
+                <div class="valid-feedback">Thank you!</div>
+                <div class="invalid-feedback">Required</div>
+              </div>
+              <div class="align-center">
+                <div class="form-check ml-4 mb-3">
+                  <input type="checkbox" class="form-check-input" id="formcheck" required>
+                  <label for="formcheck" class="form-check-label">Terms & Conditions</label>
+                  <div class="valid-feedback">Thank you!</div>
+                  <div class="invalid-feedback">Required</div>        <button type="submit" id="modalsubmit" class=" align-center btn mr-4 mb-4">Submit</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</nav>
+
+<header class="page-header header container-fluid pt-3 pb-2" id="headrow">
+    <h1>Mikes Bikes</h1>
+    <p>Dulce decorum est Dulce decorum est Dulce decorum addEventLis tenerDulce decorum estDulce decorum estDulce decorum estDulce decorum estv</p>
+      <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+      <a href="#" target="_blank"><i class="fa fa-youtube"></i></a>        
+      <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+      <a href="#" target="_blank"><i class="fa fa-facebook"></i></a> 
+    </div>
+  </div>
+</div>
+</header>
+
+
+<div class="container-fluid">
+  <div class="row text-center pt-5"  id="row1">
+    <div class="col">
+      <img src="boris.jpg" class="img-fluid center-block" id="shadow" alt="#">
+        
+        <div class="mt-3 pt-5 mx-4">
+          <h3>Mikes Bikes</h3>
+          <p>Dulce decorum est Dulce decorum est Dulce decorum addEvent ListenerDulce decorum estDulce decorum estDulce decorum estDulce decorum estv</p>
+        </div>
+        <div class="mt-1 mx-4">
+          <h3>Mikes Bikes</h3>
+          <p>Dulce decorum est Dulce decorum est Dulce decorum addEventLi stenerDulce decorum estDulce decorum estDulce decorum estDulce decorum estv</p>
+        </div>
+        <div class="mt-1 mx-4">
+          <h3>Mikes Bikes</h3>
+          <p>Dulce decorum est Dulce decorum est Dulce decorum addEventLis tenerDulce decorum estDulce decorum estDulce decorum estDulce decorum estv</p>
+        </div> 
+        <div class="bg1 my-5">
+          <h5><i class="fa fa-solid fa-envelope img-fluid"></i><a href="mailto:mike@gmail.com" class="img-fluid text-center mt-4"><p>Mike@gmail.com</p></a><br>
+          <i class="fa fa-phone img=fluid"></i><a href="tel:+44777777777" class="img-fluid text-center"><p>077777777777</p></a></h5>
+
+        <h1>
+          <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+          <a href="#" target="_blank"><i class="fa fa-youtube"></i></a>        
+          <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+          <a href="#" target="_blank"><i class="fa fa-facebook"></i></a> 
+        </h1>         
+      </div>
+    </div>
+
+
+
+
+  <div class="container-fluid" id="row2">
+    <div class="row">
+      <div class="jumbo mx-auto px-4">
+        <h1 class="pt-2 text-center center-block">Lessons</h1>
+        <p class="text-center">Dulce decorum est Dulce decorum est Dulce decorum addEventLi stenerDulce decorum estDulce decorum estDulce decorum estDulce decorum estv</p>
+      </div>
+    </div>
+
+    <div class="row" id="row2content">
+      <div class="card-group">
+        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 mt-4 mx-auto">        
+          <div class="card">
+            <img src="bikes1.jfif" alt="bike1" class="card-img-top img-fluid mx-auto smalltab shade">
+            <div class="card-body mx-auto">
+              <h4 class="card title text-center">Lessons for all ages</h4>
+              <p>Dulce decorum est Dulce decorum est Dulce decorum addEventLi stenerDulce decorum estDulce decorum estDulce decorum estDulce decorum estv</p><br><p>Dulce decorum est Dulce decorum est Dulce decorum addEventL istenerDulce decorum estDulce decorum estDulce decorum estDulce decorum estv</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 mt-4 mx-auto mt-3">        
+          <div class="card">
+            <img src="bikes1.jfif" alt="bike1" class="card-img-top img-fluid mx-auto smalltab shade">
+            <div class="card-body mx-auto">
+              <h4 class="card title text-center">Learn how to ride your bike</h4>
+              <p>Dulce decorum est Dulce decorum est Dulce decorum addEventLi stenerDulce decorum estDulce decorum estDulce decorum estDulce decorum estv</p><br><p>Dulce decorum est Dulce decorum est Dulce decorum addEventLi stenerDulce decorum estDulce decorum estDulce decorum estDulce decorum estv</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 mt-4 mx-auto">        
+          <div class="card">
+            <img src="bikes2.jfif" alt="bike1" class="card-img-top img-fluid mx-auto smalltab shade">
+            <div class="card-body mx-auto">
+              <h4 class="card title text-center">Learn road safety</h4>
+              <p>Dulce decorum est Dulce decorum est Dulce decorum addEventLi stenerDulce decorum estDulce decorum estDulce decorum estDulce decorum estv</p><br><p>Dulce decorum est Dulce decorum est Dulce decorum addEventLi stenerDulce decorum estDulce decorum estDulce decorum estDulce decorum estv</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 mt-4 mx-auto">        
+          <div class="card">
+            <img src="bikes2.jfif" alt="bike1" class="card-img-top img-fluid mx-auto smalltab shade">
+            <div class="card-body mx-auto">
+              <h4 class="card title text-center">Learn how to clean your bike</h4>
+              <p>Dulce decorum est Dulce decorum est Dulce decorum addEventLi stenerDulce decorum estDulce decorum estDulce decorum estDulce decorum estv</p><br><p>Dulce decorum est Dulce decorum est Dulce decorum addEventLi stenerDulce decorum estDulce decorum estDulce decorum estDulce decorum estv</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 mt-4 mx-auto">        
+          <div class="card">
+            <img src="bikes3.jfif" alt="bike1" class="card-img-top img-fluid mx-auto smalltab shade">
+            <div class="card-body mx-auto">
+              <h4 class="card title text-center">Learn how to fix your bike</h4>
+              <p>Dulce decorum est Dulce decorum est Dulce decorum addEventLi stenerDulce decorum estDulce decorum estDulce decorum estDulce decorum estv</p><br><p>Dulce decorum est Dulce decorum est Dulce decorum addEventLi stenerDulce decorum estDulce decorum estDulce decorum estDulce decorum estv</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 mt-4 mx-auto">        
+          <div class="card">
+            <img src="bikes3.jfif" alt="bike1" class="card-img-top img-fluid mx-auto smalltab shade pt-3">
+            <div class="card-body mx-auto">
+              <h4 class="card title text-center">Learn to care for your bike</h4>
+              <p>Dulce decorum est Dulce decorum est Dulce decorum addEventLi stenerDulce decorum estDulce decorum estDulce decorum estDulce decorum estv</p><br><p>Dulce decorum est Dulce decorum est Dulce decorum addEventLi stenerDulce decorum estDulce decorum estDulce decorum estDulce decorum estv</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid" id="row3">
+    <div class="jumbo px-5">
+      <h1 class="pt-2 text-center">What kind of bike for you?</h1>
+      <p class="text-center">Dulce decorum est Dulce decorum est Dulce decorum addEventLi stenerDulce decorum estDulce decorum estDulce decorum estDulce decorum estv</p>
+    </div>
+    <div>
+      <h3 class="text-center pt-3">Learn to care for your bike</h3>
+      <p class="text-center pb-2">Dulce decorum est Dulce decorum est Dulce decorum addEventLi stenerDulce decorum estDulce decorum estDulce decorum estDulce decorum estv</p></p> 
+    </div> 
+    <div class="row" id="leftrow">      
+    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-4 px-5 pt-5">
+      <h2>All the bike stuff you would like</h2><br><br>
+      <h4 class="text-center">Learn how to care for your bike</h4>
+      <p>Dulce decorum est Dulce decorum est Dulce decorum addEventLi stenerDulce decorum estDulce decorum estDulce decorum estDulce decorum estv</p><br>
+      <h4 class="text-center">Learn how to care for your bike</h4>
+      <p>Dulce decorum est Dulce decorum est Dulce decorum addEventLi stenerDulce decorum estDulce decorum estDulce decorum estDulce decorum estv</p>
+      <h4 class="text-center">Learn how to care for your bike</h4>
+      <p>Dulce decorum est Dulce decorum est Dulce decorum addEventLi stenerDulce decorum estDulce decorum estDulce decorum estDulce decorum estv</p>
+    </div>
+
+
+    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-8 px-4 py-5" id="carousel0">
+      <h4 class="text-center">What style of bike do you need?</h4><br>
+
+      <div class="carousel slide carousel-fade" id="carousel1" data-ride="carousel">
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+            <div class="d-flex justify-content-center">
+              <img src="bikes5.jpg" alt="items1" class="mx-auto img-fluid">
+              <div class="carousel-caption">Road Bike</div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <img src="bikes6.jpg" alt="items2" class="mx-auto img-fluid">
+              <div class="carousel-caption">BMX</div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <img src="bikes7.jpg" alt="items3" class="mx-auto img-fluid">
+              <div class="carousel-caption">Single Speed</div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <img src="bikes8.jpg" alt="items4" class="mx-auto img-fluid">
+              <div class="carousel-caption">Penny Farthing</div>
+            </div>
+          </div>
+            <a class="carousel-control-next" href="#carousel1" role="button" data-slide="next"><span class="carousel-control-next-icon mr-0"></span></a>
+            <a class="carousel-control-prev" href="#carousel1" role="button" data-slide="prev"><span class="carousel-control-prev-icon mr-0"></span></a>
+          </div>
+          <div><p>All our bikes come with a smile and a pat on the head</p></div>  
+        </div>
+      </div>
+    </div>
+  </div>
+   
+
+
+
+  <div class="container-fluid" id="row4">
+    <div class="row">
+      <div class="jumbo mx-auto px-auto">
+        <h3 class="pt-2 text-center center-block">Pricing</h3>
+        <p class="text-center">Dulce decorum est Dulce decorum est Dulce decorum addEventLi stenerDulce decorum estDulce decorum estDulce decorum estDulce decorum estv</p>
+      </div>
+    </div>
+
+    <div class="row text-center">
+      <div class="col pt-4">
+        <h4>Cost per bike / etc</h4>
+        <p>Dulce decorum est Dulce decorum est Dulce decorum addEventLi stenerDulce decorum estDulce decorum estDulce decorum estDulce decorum estvdecorum addEventLi stenerDulce decorum estDulce decorum estDulce decorum estDulce decorum est</p><p>Dulce decorum est Dulce decorum est Dulce decorum addEventLi stenerDulce decorum estDulce decorum estDulce decorum estDulce decorum estv</p>  <p>Dulce decorum est Dulce decorum</p>
+        <h5 class="pt-2 pb-3">Call out charge</h5>
+        <p>Dulce decorum est Dulce decorum est Dulce decorum addEventLi stenerDulce decorum estDulce decorum estDulce decorum estDulce decorum estvdecorum addEventLi stenerDulce decorum estDulce decorum estDulce decorum estDulce decorum est</p><p>Dulce decorum est Dulce decorum est Dulce decorum addEventLi stenerDulce decorum estDulce decorum estDulce decorum estDulce decorum estv</p>
+      </div>
+    </div>
+    <div class="row">
+       <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8">
+        <h5 class="pt-4">Additional charges</h5>
+        <p>Dulce decorum est Dulce decorum est Dulce decorum addEventLi stenerDulce decorum estDulce decorum estDulce decorum estDulce decorum estvdecorum addEventLi stenerDulce decorum estDulce decorum estDulce decorum estDulce decorum est</p><p>Dulce decorum est Dulce decorum est Dulce decorum addEventLi stenerDulce decorum estDulce decorum estDulce decorum estDulce decorum estv</p>
+        <p>Dulce decorum est Dulce decorum est Dulce decorum addEventLi stenerDulce decorum estDulce decorum estDulce decorum estDulce decorum estv</p>
+      </div>
+      <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4"> 
+        <!--Simon Pegg Gif-->
+        <div class="tenor-gif-embed pb-4 shade" data-postid="15351913" data-share-method="host" data-aspect-ratio="1" data-width="100%"><a href="https://tenor.com/view/simon-pegg-nick-frost-edgar-wright-hot-fuzz-cornetto-trilogy-gif-15351913">Simon Pegg Nick Frost GIF</a>from <a href="https://tenor.com/search/simon+pegg-gifs">Simon Pegg GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+      </div>  
+    </div>
+  </div>
+
+
+
+  <div class="container-fluid" id="row5">
+    <div class="jumbo mx-auto px-auto">
+      <h3 class="pt-2 text-center center-block mx-auto">Reviews & Testimony</h3>
+      <p class="text-center">Dulce decorum est Dulce decorum est Dulce decorum addEventLi stenerDulce decorum estDulce decorum estDulce decorum estDulce decorum estv</p>
+    </div>
+    <div class="row">
+      <div class="card-group p-4">
+        <div class="col-sm-12 col-md-6 col-md-4 col-lg-3 col-xl-3 mx-auto">
+          <div class="card">
+            <img class="card-img img-fluid mx-auto shade" src="review1.jpg" alt="review1">
+            <div class="card-body">
+              <h4 class="card-title text-center">Happy customers</h4>
+              <p class="card-text">Dulce decorum est Dulce decorum est Dulce decorum addEventLi stenerDulce decorum estDulce decorum estDulce decorum estDulce decorum estv</p> 
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-md-4 col-lg-3 col-xl-3 mx-auto">
+          <div class="card">
+            <img class="card-img img-fluid mx-auto shade" src="review2.jpg" alt="review1">
+            <div class="card-body">
+              <h4 class="card-title text-center">Happy customers</h4>
+              <p class="card-text">Dulce decorum est Dulce decorum est Dulce decorum addEventLi stenerDulce decorum estDulce decorum estDulce decorum estDulce decorum estv</p> 
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-md-4 col-lg-3 col-xl-3 mx-auto">
+          <div class="card">
+            <img class="card-img img-fluid mx-auto shade" src="review3.jpg" alt="review1">
+            <div class="card-body">
+              <h4 class="card-title text-center">Happy customers</h4>
+              <p class="card-text">Dulce decorum est Dulce decorum est Dulce decorum addEventLi stenerDulce decorum estDulce decorum estDulce decorum estDulce decorum estv</p> 
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-md-4 col-lg-3 col-xl-3 mx-auto">
+          <div class="card">
+            <img class="card-img img-fluid mx-auto shade" src="review4.jpg" alt="review1">
+            <div class="card-body">
+              <h4 class="card-title text-center">Happy customers</h4>
+              <p class="card-text">Dulce decorum est Dulce decorum est Dulce decorum addEventLi stenerDulce decorum estDulce decorum estDulce decorum estDulce decorum estv</p> 
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-md-4 col-lg-3 col-xl-3 mx-auto">
+          <div class="card">
+            <img class="card-img img-fluid mx-auto shade" src="review5.jpg" alt="review1">
+            <div class="card-body">
+              <h4 class="card-title text-center">Happy customers</h4>
+              <p class="card-text">Dulce decorum est Dulce decorum est Dulce decorum addEventLi stenerDulce decorum estDulce decorum estDulce decorum estDulce decorum estv</p> 
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-md-4 col-lg-3 col-xl-3 mx-auto">
+          <div class="card">
+            <img class="card-img img-fluid mx-auto shade" src="review6.jpg" alt="review1">
+            <div class="card-body">
+              <h4 class="card-title text-center">Happy customers</h4>
+              <p class="card-text">Dulce decorum est Dulce decorum est Dulce decorum addEventLi stenerDulce decorum estDulce decorum estDulce decorum estDulce decorum estv</p> 
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-md-4 col-lg-3 col-xl-3 mx-auto">
+          <div class="card">
+            <img class="card-img img-fluid mx-auto shade" src="review7.jpg" alt="review1">
+            <div class="card-body">
+              <h4 class="card-title text-center">Happy customers</h4>
+              <p class="card-text">Dulce decorum est Dulce decorum est Dulce decorum addEventLi stenerDulce decorum estDulce decorum estDulce decorum estDulce decorum estv</p> 
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-md-4 col-lg-3 col-xl-3 mx-auto">
+          <div class="card">
+            <img class="card-img img-fluid mx-auto shade" src="review8.jpg" alt="review1">
+            <div class="card-body">
+              <h4 class="card-title text-center">Happy customers</h4>
+              <p class="card-text">Dulce decorum est Dulce decorum est Dulce decorum addEventLi stenerDulce decorum estDulce decorum estDulce decorum estDulce decorum estv</p> 
+            </div>
+          </div>
+        </div>        
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="container-fluid" id="row6">
+    <div class="row">
+      <div class="jumbo mx-auto px-5">
+        <h1 class="pt-2 text-center center-block">Mike on the move</h1>
+        <p class="text-center">Dulce decorum est Dulce decorum est Dulce decorum addEventLi stenerDulce decorum estDulce decorum estDulce decorum estDulce decorum estv</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 py-5 px-5">
+        <h4 class="card title text-center">Look at him go!</h4>
+        <p>Dulce decorum est Dulce decorum est Dulce decorum addEventLi stenerDulce decorum estDulce decorum estDulce decorum estDulce decorum estv</p><br><p>Dulce decorum est Dulce decorum est Dulce decorum addEventLi stenerDulce decorum estDulce decorum estDulce decorum estDulce decorum estv</p>        
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 px-4 py-4">
+        <div class="embed-responsive embed-responsive-16by9 shade">
+          <iframe class="d-block mx-auto img-fluid shade" width="727" height="409" src="https://www.youtube.com/embed/iZ4wWoChSe8" title="Safety in Seconds:  Bike Helmet Fit Test" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 px-4 py-4">
+        <div class="embed-responsive embed-responsive-16by9 shade">
+          <iframe class="d-block mx-auto img-fluid shade" width="727" height="409" src="https://www.youtube.com/embed/iZ4wWoChSe8" title="Safety in Seconds:  Bike Helmet Fit Test" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 py-5 px-5">
+        <h4 class="card title text-center">Look at him go!</h4>
+        <p>Dulce decorum est Dulce decorum est Dulce decorum addEventLi stenerDulce decorum estDulce decorum estDulce decorum estDulce decorum estv</p><br><p>Dulce decorum est Dulce decorum est Dulce decorum addEventLi stenerDulce decorum estDulce decorum estDulce decorum estDulce decorum estv</p>        
+      </div>
+    </div>
+  </div>
+    <div class="container-fluid footer pt-4" id="footer">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+          <h3>Mikes Bikes</h3>
+          <p>Dulce decorum est Dulce decorum est Dulce decorum addEventLi stenerDulce decorum estDulce decorum estDulce decorum estDulce decorum estv</p>
+        </div>
+        <div class="col-sm-4 col-md-3 col-lg-3 col-xl-3">
+          <h3>Contact</h3>
+          <p>Company<br>Address<br>Phone<br>Email</br>Fax</p>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 col-xl-3 mt-3">
+          <img class="logo pb-2" src="logo.png" alt="logo" id="logo"><br>
+          <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+          <a href="#" target="_blank"><i class="fa fa-youtube"></i></a>        
+          <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+          <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+
+
+
+
+
+<!--Form Validation-->
+
+<script>
+// Disable form submissions if there are invalid fields
+(function() {
+  'use strict';
+  window.addEventListener('load', function() {
+    // Get the forms we want to add validation styles to
+    var forms = document.getElementsByClassName('needs-validation');
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+       form.addEventListener('submit', function(event) {
+         if (form.checkValidity() === false) {
+           event.preventDefault();
+           event.stopPropagation();
+        }
+         form.classList.add('was-validated');
+      }, false);
+    });
+  }, false);
+})();
+</script>
+
+</html>

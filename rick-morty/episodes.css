@@ -1,0 +1,124 @@
+body {
+	padding: 0;
+	margin: 0;
+	background: #84C0C6 !important;
+}
+
+.navbar {
+	background: #46B1C9;
+}
+
+.nav-link,
+.navbar-brand {
+	color: #fff;
+	cursor: crosshair;
+}
+
+.nav-link {
+	margin-right: 2em !important;
+}
+
+.nav-link:hover {
+	color: red;
+}
+
+.navbar-collapse {
+	justify-content: flex-end;
+}
+
+.header {
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.jumbotron {
+	background: none !important;
+	text-align: center;
+
+}
+
+/*Image Shadows..*/
+.container img {
+	-webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+	-moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+	margin-bottom: 10px;
+}
+
+.page-footer {
+	display: block;
+	background: #4682C9;
+	color: #fff;
+	padding: 60px 0 30px;
+
+}	
+
+.footer-copyright {
+	color: black;
+	padding: 40px 0;
+}
+
+.background {
+	background: #609AD5;
+	padding: 2em 0;
+	margin-bottom: 0;
+}
+
+.background a {
+	color: #60E6EB;
+}
+
+.container {
+	display: block;
+	text-align: center;
+}
+
+.carousel-caption h5 {
+	color: #69FAFF;
+	font-weight: bold;
+	font-size: 2rem;
+}
+
+.carousel-control-prev-icon {
+    width: 60px;
+    height: 60px;
+    margin-top: -15px;
+
+}
+
+.row h4 {
+	font-size: 3rem;
+	font-weight: bold;
+}
+
+.carousel-control-next-icon {
+    width: 60px;
+    height: 60px !important;
+    margin-top: -15px;
+}
+
+.carousel-item img {
+	-webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+	-moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+	margin-bottom: 10px;
+}
+
+
+
+
+
+
+ /*Cant figure out how to lower the .background area properly on small screen..*/
+
+@media (max-width: 770.98px) {
+    .header {
+        left: 0;
+        padding: 0 50px;
+        position: absolute;
+        top: 20%;
+        transform: none;
+        text-align: center;
+    }
+

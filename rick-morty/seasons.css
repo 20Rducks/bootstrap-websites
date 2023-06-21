@@ -1,0 +1,131 @@
+body {
+	padding: 0;
+	margin: 0;
+	background: #84C0C6 !important;
+}
+
+.navbar {
+	background: #46B1C9;
+}
+
+.nav-link,
+.navbar-brand {
+	color: #fff;
+	cursor: crosshair;
+}
+
+.nav-link {
+	margin-right: 2em !important;
+}
+
+.nav-link:hover {
+	color: red;
+}
+
+.navbar-collapse {
+	justify-content: flex-end;
+}
+
+.header {
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.jumbotron {
+	background: none !important;
+	text-align: center;
+
+}
+
+/*Image Shadows..*/
+.container img {
+	-webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+	-moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+	margin-bottom: 10px;
+}
+
+.page-footer {
+	display: block;
+	background: #4682C9;
+	color: #fff;
+	padding: 60px 0 30px;
+
+}	
+
+.footer-copyright {
+	color: black;
+	padding: 40px 0;
+}
+
+.background {
+	background: #609AD5;
+	padding: 4em 0;
+}
+
+.background a {
+	color: #60E6EB;
+}
+
+.card {
+	background:#609AD5;
+	border: none;
+}
+
+.team {
+	color: solid black;
+	padding: 0 140px;
+}
+
+.team .card {
+	background: none;
+	border: none;
+}
+
+.team .card-title {
+	font-size: 1.3rem;
+	margin-bottom: 0;
+	text-transform: capitalize;
+}
+
+.row .div {
+	width: 1000px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+/*Image Shadows..*/
+.container img {
+	-webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+	-moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+	margin-bottom: 10px;
+}
+
+.modals{
+    	margin: 20px;
+    }
+    
+.modal-dialog iframe{
+        margin: 0 auto;
+        display: block;
+    }
+
+
+
+
+
+
+ /*Cant figure out how to lower the .background area properly on small screen..*/
+
+@media (max-width: 770.98px) {
+    .header {
+        left: 0;
+        padding: 0 50px;
+        position: absolute;
+        top: 20%;
+        transform: none;
+        text-align: center;
+    }
+

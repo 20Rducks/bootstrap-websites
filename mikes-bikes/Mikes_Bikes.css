@@ -1,0 +1,235 @@
+body {
+	padding: 15;
+	margin: 0;
+	box-shadow: 0 0 15px 0px #000;
+    clip-path: inset(0px -15px 0px -15px);
+    position: relative;
+    margin: 0 50px;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	align-items: center;
+    border-radius: 3%!important;
+}
+
+iframe { 
+	max-width: 750px;
+	max-height: 750px;
+	display: block !important;
+	align-self: center; 	
+}
+
+.smalltab {
+	height: 250px !important;
+	width: 200px !important;
+}
+
+#shadow {
+	box-shadow: rgb(0 0 0 / 47%) 22px 20px 25px !important
+}
+
+.shade {
+	box-shadow: rgb(0 0 0 / 47%) 22px 20px 25px !important	
+}
+
+#content {
+	background: url('background2.png') !important;
+	z-index: 99;
+	margin-left: 10% !important;
+	margin-right: 10% !important;
+}
+
+.opacity {
+	opacity: 0.6;
+}
+
+.bg1 {
+	background: url('cogs.jpg') !important;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.navbar {
+	background-color: grey;
+	max-height: 40px;
+}
+
+#mikelogo {
+
+}
+
+.nav-item {
+	padding-left: 10%;
+}
+
+.nav-link {
+	text-decoration: none !important;
+	color: white;
+}
+
+.nav-link:hover {
+	color: black;
+	transition: 1s;
+}
+
+#topnav {
+	padding-top: 4px !important;
+}
+
+.fixed-top {
+	top: -5 !important;
+}
+
+.navbar-toggler {
+	padding: 0rem 0rem !important;
+	font-size: 1 !important;
+	line-height: 0 !important;
+}
+
+.navbar-toggler-icon {
+	background-image: url('burgercog.png') !important;
+	width: 30px !important;
+	height: 30px !important;
+}
+
+.fixed-top {
+	position: sticky !important;
+}
+
+.modal-backdrop {
+    display: none;
+    z-index: 1040 !important;
+}
+
+.modal-content {
+    margin: 2px auto;
+    z-index: 1100 !important;
+}
+
+#modalsubmit {
+	background-color: grey;
+	color: white;
+	float: right;
+}
+
+#selectone .form-control.is-valid, .was-validated .form-control:valid {
+	background-image: none !important;
+}
+
+#headrow {
+	background-color: grey;
+	padding-top: 50px !important;
+}
+
+#row1 {
+	background-color: rgba(220,220,220);
+	min-height: 1000px;
+}
+
+.jumbo {
+    padding: 1rem 1rem !important;
+    background-color: grey; 
+}
+
+#cogs {
+	max-width: 500px;
+	max-height: 500px;
+    margin: 10%;
+    border: 4px solid #ddd;
+}
+
+#cogs p {
+	color: black !important;
+	font-size: 40px;
+}
+
+
+#row2 {
+	background-color: rgba(211,211,211);
+	min-height: 850px;
+	align-items: center;
+}
+
+#row2content {
+	background-color: rgba(211,211,211);
+	min-height: 850px;
+	align-items: center;
+}
+
+.card {
+	background: none !important;
+	border: none !important;
+}
+
+#carousel0 {
+	z-index: 97 !important;
+}
+
+.carousel-inicators {
+	color: grey !important;
+}
+
+.carousel-caption{
+	font-weight: bold;
+	color: white !important;
+	padding-bottom: 0 !important;
+}
+
+.carousel-control-next, .carousel-control-prev {
+	width: 20% !important;
+	height: 50% !important;
+	color: grey !important;
+	z-index: 99;
+}
+
+.carousel-control-next-icon {
+	background-image: url('next.png') !important;
+	height: 25px !important;
+	width: 25px !important;
+}
+
+.carousel-control-prev-icon {
+	background-image: url('prev.png') !important;
+	height: 25px !important;
+	width: 25px !important;
+}
+
+#row3 {
+	background-color: rgba(192,192,192);
+	min-height: 850px;
+}
+
+#row4 {
+	background-color: rgba(220,220,220);
+	min-height: 850px;
+}
+
+#row4 h3 {
+	text-align: center !important;
+	align-self: center;
+}
+
+#row5 {
+	background-color: rgba(211,211,211);
+	min-height: 850px;
+}
+
+#row6 {
+	background-color: rgba(220,220,220);
+	min-height: 850px;
+}
+
+#footer{
+  	width: 100%;
+  	height: 100%;
+  	background-color: grey;
+  	margin-bottom: none !important;
+  	padding-bottom: none !important;
+}
+
+#logo {
+	width: 100px;
+	height: 100px;
+}

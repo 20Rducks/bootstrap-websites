@@ -1,0 +1,431 @@
+
+body {
+	padding: 15;
+	margin: 0;
+	background: black;
+}
+
+body.modal-open {
+	padding: 0 !important;
+}
+
+img {
+	max-width: 100%;
+}
+
+.card img {
+  	display: block;
+  	max-width: 100%;
+  	height: auto;
+}
+
+.jumbotron {
+	padding: 3rem 1rem !important;
+	background-color: rgba(108, 122, 137, 0.5) !important;
+	background-image: url('jumbotron-image1.png');
+}
+
+.jumbotron h1 {
+	font-size: 5rem !important;
+	font-style: bold;
+}
+
+.jumbotron p {
+	font-size: 2rem !important;
+}
+
+.jumbotron2 {
+	padding: 1rem 1rem !important;
+	background-color: rgba(108, 122, 137, 0.5) !important;
+	background-image: url('jumbotron-image2.png');
+}
+
+.jumbotron2 h1 {
+	font-size: 5rem !important;
+	font-style: bold;
+}
+
+.jumbotron2 p {
+	font-size: 2rem !important;
+}
+
+
+.navbar {
+	z-index: 99;
+	width: 100%;
+	background-image: url('headandfoot.jpg');
+  	background-size: auto;
+  	background-size: 50% 50%;
+}
+
+#main-nav {
+	position: fixed;
+}
+
+
+.navbar-toggler-icon {
+	background-image: url('burger-icon.png') !important;
+}
+
+.spaceship {
+	opacity: 0.6;
+	transition: 0.8s;
+}
+
+.spaceship:hover {
+	opacity: 1;
+}
+
+.modal-backdrop.show {
+	position: relative !important;
+}
+
+#loginModal {
+	position: fixed;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+
+#loginModal .modal-title {
+	color: silver;
+}
+
+#loginModal .modal-content {
+	border-radius: 0;
+	padding: 2rem;
+	background-image: url('background-3.jpg');
+  	background-size: auto;
+	background-position: stretch;
+  	background-size: 100% 100%;
+	border: none;
+	color: silver;
+}
+
+#loginModal .modal-dialog {
+	border-radius: 0;
+	padding: 1rem;
+	background-image: url('background-3.jpg');
+  	background-size: auto;
+	background-position: stretch;
+  	background-size: 100% 100%;
+	border: 1px solid black;
+	color: silver;
+}
+
+#loginModal .modal-header {
+	border-bottom: none;
+	justify-content: center;
+	color: silver;
+}
+
+#loginModal h4 {
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+ 	text-transform: capitalize;
+}
+
+#loginModal .close {
+    background: none;
+    border-radius: 70%;
+    color: white;
+    font-size: 19px;
+    font-weight: normal;
+    height: 30px;
+    opacity: 0.7;
+    padding: 0;
+    position: absolute;
+    right: 26px;
+    text-align: center;
+    top: 26px;
+    width: 30px;
+}
+
+#loginModal .btn {
+	background-color: black;
+	align-content: center;
+	color: white;
+	min-width: 150px;
+	transition: all 0.5s;
+}
+
+#loginModal .btn:hover,
+#loginModal .btn:focus {
+	background-color: silver;
+}
+
+element.style {
+    padding-right: 0px !important;
+}
+
+.page-header {
+	background-image: url('galaxy-md.jpg') !important;
+	background-repeat: no-repeat;
+  	background-size: auto;
+	background-position: stretch;
+  	background-size: 100% 100%;
+	color: silver;
+	min-height: 800px;
+	text-align: center;
+}
+
+.header {
+	text-align: center;
+	padding-top: 6rem !important;
+}
+
+.wowbox {
+	margin-top: 75px;
+	border-bottom: 75px;
+	opacity: 0.25;
+}
+
+.wowbox:hover {
+	opacity: 1;
+	transition: 1s;
+	background-image: url('background-4.jpg');
+	color: white;
+}
+
+.wowbox h2 p {
+	color: white !important;
+	font-style: bold;
+	opacity: 1 !important;
+}
+
+.wowbox2 {
+	opacity: 0.5;
+}
+
+.wowbox2:hover {
+	opacity: 1;
+	transition: 1s;
+	background-image: url('background-4.jpg');
+	color: white;
+}
+
+.wowbox2 h2 p {
+	color: white !important;
+	font-style: bold;
+	opacity: 1 !important;
+}
+
+.comet {
+	padding-top: 150px;
+	width:150px;
+    -webkit-transition-duration: 4s;
+    -moz-transition-duration: 4s;
+    -o-transition-duration: 4s;
+     transition-duration: 4s;
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+     transition-property: transform;
+}
+
+.comet:hover {
+    -webkit-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+     transform: rotate(-360deg);
+}
+
+.toprow {
+	background-image: url('background1.jpg') !important;
+	background-repeat: no-repeat;
+  	background-size: auto;
+	background-position: stretch;
+  	background-size: 100% 100%;
+	color: silver;
+	min-height: 800px;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.toprow h1 {
+	font-size: 3rem;
+	font-weight: bold;
+}
+
+.toprow p {
+	font-size: 1.25rem;
+}
+
+.tenor-gif-embed {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.midrow {
+	background-image: url('background2.jpg') !important;
+	background-repeat: no-repeat;
+  	background-size: auto;
+	background-position: stretch;
+  	background-size: 100% 100%;
+  	color: silver;
+	min-height: 850px;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.bottomrow {
+	background-image: url('background3.jpg') !important;
+	background-repeat: no-repeat;
+  	background-size: auto;
+	background-position: stretch;
+  	background-size: 100% 100%;
+	position: relative;
+	color: silver;
+	min-height: 110 0px;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.footer {
+	display: block;
+	color: grey;
+	background-image: url('headandfoot.jpg');
+	background-repeat: no-repeat;
+  	background-size: auto;
+	background-position: stretch;
+  	background-size: 100% 100%;
+
+}
+
+.card {
+	background-color: transparent !important;
+	border: none !important;
+}
+
+.card img {
+	height: 250px;
+	width: 200px;
+	opacity: 0.75;
+	align-self: center;
+	transition: .50s;
+}
+
+.card img:hover {
+	opacity: 1;
+}
+
+.btn {
+	background-color: grey !important;
+	font-weight: bold !important;
+	font-size: 20px !important;
+	opacity: 0.6;
+	transition: 0.8s !important;
+	align-self: center;
+	border: 2px solid white !important;
+}
+
+.btn:hover {
+	opacity: 1;
+	cursor: crosshair !important;
+}
+
+.card-title {
+	font-weight: bold !important;
+	font-size: 35px !important;
+}
+
+.card-text {
+	font-size: 20px !important;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 100px; /* Place the button at the bottom of the page */
+  right: 15px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: rgba(108, 122, 137, 0.5); /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+  max-height: 100px;
+  max-width: 100px
+}
+
+#myBtn:hover {
+  background: no-repeat right url('fire.gif');
+  background-color: rgba(108, 122, 137); /* Add a dark-grey background on hover */
+  transition: 2s;
+}
+
+.carousel-caption {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#carouselcap h4 {
+	font-size: 3rem !important;
+	font-weight: bold;
+}
+
+#carouselcap p {
+	font-size: 15px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+	width: 20% !important;
+	height: 50% !important;
+}
+
+.carousel-control-next-icon .carousel-control-prev-icon {
+	width: 5vw !important;
+	height: 5vw !important;
+	border-radius: 60px;
+}
+
+#formcap h4 {
+	font-size: 2.5rem !important;
+	font-weight: bold;
+}
+
+#formcap p {
+	font-size: 15px;
+}
+
+.form-check {
+    position: relative;
+    display: block;
+    padding-left: 1.25rem;
+    padding-bottom: 2rem;
+}
+
+.form-check-input {
+	margin-top: 0.4rem !important;
+    position: relative !important;
+}
+
+#loginModal .close {
+    background: none;
+    border-radius: 70%;
+    color: white;
+    font-size: 50px;
+    font-weight: normal;
+    height: -67px;
+    opacity: 0.7;
+    padding: 0;
+    position: absolute;
+    right: 3px;
+    text-align: center;
+    top: -10px;
+    width: 30px;
+ }
+
+.btn-block {
+	display: inline-block !important;
+}
+
+#rangecontrol {
+	width: 220px;
+}

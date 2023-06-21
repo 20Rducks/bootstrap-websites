@@ -1,0 +1,168 @@
+body {
+	padding: 0;
+	margin: 0;
+	background: #84C0C6 !important;
+}
+
+.navbar {
+	background: #46B1C9;
+}
+
+.nav-link,
+.navbar-brand {
+	color: #fff;
+	cursor: crosshair;
+}
+
+.nav-link {
+	margin-right: 2em !important;
+}
+
+.nav-link:hover {
+	color: red;
+}
+
+.navbar-collapse {
+	justify-content: flex-end;
+}
+
+.header {
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.jumbotron {
+	background: none !important;
+	text-align: center;
+
+}
+
+/*Image Shadows..*/
+.container img {
+	-webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+	-moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+	margin-bottom: 10px;
+}
+
+.page-footer {
+	display: block;
+	background: #4682C9;
+	color: #fff;
+	padding: 60px 0 30px;
+
+}	
+
+.footer-copyright {
+	color: black;
+	padding: 40px 0;
+}
+
+.background {
+	background: #609AD5;
+	padding: 4em 0;
+}
+
+.background a {
+	color: #60E6EB;
+}
+
+.team {
+	color: solid black;
+	padding: 0 140px;
+}
+
+/*Keeps Colums Even...*/
+.team .card-columns {
+	-webkit-column-count: 4;
+	-moz-column-count: 4;
+	column-count: 4;
+}
+
+.team .card {
+	background: none;
+	border: none;
+}
+
+.team .card-title {
+	font-size: 1.3rem;
+	margin-bottom: 0;
+	text-transform: capitalize;
+}
+
+.row .div {
+	width: 1000px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+#charmodal .modal-content {
+	border-radius: 0;
+	padding: 2rem;
+    background-color: #46B1C9;
+}
+
+#charmodal .modal-header {
+	background: #4682C9;
+	border-bottom: none;
+	justify-content: center;
+}
+
+#charmodal h4 {
+	color: #000;
+	text-align:center;
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+#charmodal .close {
+    background: #c0c3c8;
+    border-radius: 100%;
+    color: #fff;
+    font-size: 19px;
+    font-weight: normal;
+    height: 30px;
+    opacity: 0.5;
+    padding: 0;
+    position: absolute;
+    right: 26px;
+    text-align: center;
+    top: 26px;
+    width: 30px;	
+}
+
+#charmodal .close span {
+    position: relative;
+    top: -3px;
+}
+#charmodal .modal-body p {
+    color: black;
+}
+
+#charmodal .btn {
+    background-color: #1da098;
+    border: none;
+    color: #fff;
+    min-width: 150px;
+    transition: all 0.4s;
+}
+#charmodal .btn:hover,
+#charmodal .btn:focus {
+    background-color: #12968d;
+}
+
+
+ /*Cant figure out how to lower the .background area properly on small screen..*/
+
+@media (max-width: 770.98px) {
+    .header {
+        left: 0;
+        padding: 0 50px;
+        position: absolute;
+        top: 20%;
+        transform: none;
+        text-align: center;
+    }
+
